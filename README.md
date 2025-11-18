@@ -8,11 +8,16 @@
 
 ##### 
 
+<<<<<<< HEAD
 ##### •Who engages with ads
 
 ##### •Which ads perform best
 
 ##### •Which campaigns give the best ROI
+=======
+##### Who engages with ads
+##### Which ads perform best
+>>>>>>> 4b3b212d16400a8453770763f379311b2b432cfc
 
 ##### •How performance changes over time
 
