@@ -8,23 +8,15 @@
 
 ##### 
 
-##### Who engages with ads
+##### •Who engages with ads
 
-##### 
+##### •Which ads perform best
 
-##### Which ads perform best
+##### •Which campaigns give the best ROI
 
-##### 
+##### •How performance changes over time
 
-##### Which campaigns give the best ROI
-
-##### 
-
-##### How performance changes over time
-
-##### 
-
-##### It shows a complete journey from raw CSVs → data cleaning → modeling → visualization.
+##### •It shows a complete journey from raw CSVs → data cleaning → modeling → visualization.
 
 
 
@@ -36,21 +28,13 @@
 
 ##### The dataset contains:
 
-##### 
+##### •Ads
 
-##### Ads
+##### •Campaigns
 
-##### 
+##### •Users
 
-##### Campaigns
-
-##### 
-
-##### Users
-
-##### 
-
-##### Ad events (impressions, clicks, likes, comments, shares, purchases)
+##### •Ad events (impressions, clicks, likes, comments, shares, purchases)
 
 
 
@@ -60,21 +44,13 @@
 
 ##### I cleaned the data using Pandas:
 
-##### 
+##### •Removed duplicates
 
-##### Removed duplicates
+##### •Fixed inconsistent user entries
 
-##### 
+##### •Split data into dim\_ad, dim\_campaign, dim\_user, and fact\_ad\_events
 
-##### Fixed inconsistent user entries
-
-##### 
-
-##### Split data into dim\_ad, dim\_campaign, dim\_user, and fact\_ad\_events
-
-##### 
-
-##### Exported cleaned tables for Power BI
+##### •Exported cleaned tables for Power BI
 
 
 
@@ -84,15 +60,9 @@
 
 ##### I built a star schema:
 
-##### 
+##### •DimCampaign → DimAd → FactAdEvents ← DimUser
 
-##### DimCampaign → DimAd → FactAdEvents ← DimUser
-
-##### 
-
-##### 
-
-##### This helps create clear, fast, easy-to-understand visuals.
+##### •This helps create clear, fast, easy-to-understand visuals.
 
 
 
@@ -102,37 +72,21 @@
 
 ##### Created key metrics such as:
 
-##### 
+##### •Impressions
 
-##### Impressions
+##### •Clicks
 
-##### 
+##### •CTR (Click-Through Rate)
 
-##### Clicks
+##### •Engagement Rate
 
-##### 
+##### •Conversion Rate
 
-##### CTR (Click-Through Rate)
+##### •CPC (Cost per Click)
 
-##### 
+##### •CPA (Cost per Acquisition)
 
-##### Engagement Rate
-
-##### 
-
-##### Conversion Rate
-
-##### 
-
-##### CPC (Cost per Click)
-
-##### 
-
-##### CPA (Cost per Acquisition)
-
-##### 
-
-##### Ad Performance Score (custom metric)
+##### •Ad Performance Score (custom metric)
 
 
 
@@ -144,21 +98,13 @@
 
 ##### High-level performance:
 
-##### 
+##### •Impressions, clicks, engagements, purchases
 
-##### Impressions, clicks, engagements, purchases
+##### •Click-through rate, conversion rate
 
-##### 
+##### •Top platforms, countries, interests
 
-##### Click-through rate, conversion rate
-
-##### 
-
-##### Top platforms, countries, interests
-
-##### 
-
-##### Monthly engagement trend
+##### •Monthly engagement trend
 
 
 
@@ -168,23 +114,15 @@
 
 ##### Breakdown by:
 
-##### 
+##### •Age group
 
-##### Age group
+##### •Gender
 
-##### 
+##### •Country
 
-##### Gender
+##### •Interests
 
-##### 
-
-##### Country
-
-##### 
-
-##### Interests
-
-##### Helps understand who is engaging with ads.
+##### •Helps understand who is engaging with ads.
 
 
 
@@ -194,21 +132,13 @@
 
 ##### Shows which ads perform best:
 
-##### 
+##### •Top \& bottom CTR ads
 
-##### Top \& bottom CTR ads
+##### •Ad type comparison
 
-##### 
+##### •Facebook vs Instagram
 
-##### Ad type comparison
-
-##### 
-
-##### Facebook vs Instagram
-
-##### 
-
-##### Detailed table with performance score
+##### •Detailed table with performance score
 
 
 
@@ -218,17 +148,11 @@
 
 ##### Budget-focused analysis:
 
-##### 
+##### •CPC and CPA
 
-##### CPC and CPA
+##### •Budget vs performance
 
-##### 
-
-##### Budget vs performance
-
-##### 
-
-##### Which campaigns should be scaled or paused
+##### •Which campaigns should be scaled or paused
 
 
 
@@ -238,51 +162,29 @@
 
 ##### Time-based patterns:
 
-##### 
+##### •Heatmap (hour × day)
 
-##### Heatmap (hour × day)
+##### •Day-part performance
 
-##### 
+##### •Weekly trends
 
-##### Day-part performance
+##### •Monthly CTR \& conversion trends
 
-##### 
+##### •**Key Takeaways**
 
-##### Weekly trends
+##### •From this project, I practiced:
 
-##### 
+##### •Data cleaning and prep (Python)
 
-##### Monthly CTR \& conversion trends
+##### •Building a proper star schema
+
+##### •Writing DAX measures
+
+##### •Designing a multi-page Power BI dashboard
+
+##### •Extracting useful business insights from marketing data.
 
 
-
-### **Key Takeaways**
-
-
-
-##### From this project, I practiced:
-
-##### 
-
-##### Data cleaning and prep (Python)
-
-##### 
-
-##### Building a proper star schema
-
-##### 
-
-##### Writing DAX measures
-
-##### 
-
-##### Designing a multi-page Power BI dashboard
-
-##### 
-
-##### Extracting useful business insights from marketing data
-
-##### 
 
 ##### This is a real-world style BI project showing how ads perform, which audiences to target, and where budgets should go.
 
