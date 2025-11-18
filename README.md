@@ -14,8 +14,8 @@
 ##### •Which ads perform best
 
 ##### •Which campaigns give the best ROI
-##### Who engages with ads
-##### Which ads perform best
+##### •Who engages with ads
+##### •Which ads perform best
 
 
 ##### •How performance changes over time
