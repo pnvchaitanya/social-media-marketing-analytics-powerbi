@@ -9,9 +9,6 @@
 ##### 
 
 ##### Who engages with ads
-
-##### 
-
 ##### Which ads perform best
 
 ##### 
