@@ -1,194 +1,162 @@
-# **Social Media Ad Performance Dashboard (Power BI + Python)**
+# Social Media Ad Performance Dashboard  
+**Power BI | Python | DAX | Star Schema Modeling**
+
+## Project Overview
+This project is an end-to-end **Business Intelligence solution** built to analyze and optimize **social media advertising performance**.
+
+Starting from raw CSV files, I:
+- Cleaned and transformed the data using **Python**
+- Designed a **star schema data model**
+- Built a **5-page interactive Power BI dashboard**
+- Delivered **actionable marketing and ROI insights**
+
+The dashboard answers key business questions such as:
+- Who engages with ads?
+- Which ads and campaigns perform best?
+- Where is ad budget being wasted or underutilized?
+- How does ad performance change over time?
+
+This project mirrors a **real-world marketing analytics workflow** used by BI and analytics teams.
+
+---
+
+## Data Source
+**Kaggle – Social Media Advertisement Dataset**
+
+### Raw Data Includes:
+- Ads  
+- Campaigns  
+- Users  
+- Ad Events  
+  *(impressions, clicks, likes, comments, shares, purchases)*
+
+---
+
+## Data Cleaning & Transformation (Python)
+All preprocessing was performed using **Pandas** to ensure clean, analysis-ready data.
+
+### Key Steps:
+- Removed duplicate records
+- Fixed inconsistent user attributes
+- Validated event-level data
+- Split raw data into analytical tables
+- Exported cleaned datasets for Power BI
+
+### Final Tables:
+- `dim_ad`
+- `dim_campaign`
+- `dim_user`
+- `fact_ad_events`
+
+---
+
+## Data Modeling (Power BI)
+A **star schema** was designed to ensure:
+- High performance
+- Simple relationships
+- Clean DAX calculations
+- Scalable reporting
+
+### Schema Design:
 
+---
 
+## DAX Measures & Metrics
+Business-focused KPIs commonly used by marketing teams were created.
 
-##### This project is an end-to-end analysis of a Social Media Advertisement dataset.
+### Core Metrics:
+- Impressions  
+- Clicks  
+- Engagements  
+- Purchases  
 
-##### I cleaned the data using Python, modeled it into a star schema, and built a 5-page interactive Power BI dashboard to understand:
+### Performance Metrics:
+- CTR (Click-Through Rate)
+- Engagement Rate
+- Conversion Rate
+- CPC (Cost per Click)
+- CPA (Cost per Acquisition)
 
-##### 
+### Advanced Metric:
+- **Ad Performance Score**  
+  *(Custom metric combining engagement, CTR, and conversions)*
 
+---
 
-##### •Who engages with ads
+## Dashboard Pages
 
-##### •Which ads perform best
+### Page 1 — Executive Summary
+High-level snapshot for stakeholders:
+- Total impressions, clicks, engagements, purchases
+- CTR and conversion rate
+- Top platforms, countries, and interests
+- Monthly engagement trend
 
-##### •Which campaigns give the best ROI
-##### •Who engages with ads
-##### •Which ads perform best
+---
 
+### Page 2 — Audience Insights
+Understanding **who** engages with ads:
+- Age groups
+- Gender distribution
+- Countries
+- User interests
 
-##### •How performance changes over time
+---
 
-##### •It shows a complete journey from raw CSVs → data cleaning → modeling → visualization.
+### Page 3 — Ad Performance
+Identifies top and bottom-performing ads:
+- Best and worst ads by CTR
+- Ad type comparison
+- Facebook vs Instagram performance
+- Detailed performance table with custom score
 
+---
 
+### Page 4 — Campaign ROI
+Budget and efficiency analysis:
+- CPC and CPA by campaign
+- Budget vs performance
+- Clear recommendations on which campaigns to scale or pause
 
-#### What this project includes
+---
 
-#### **1. Raw Data (from Kaggle)**
+### Page 5 — Time Series Analysis
+Time-based behavior and trends:
+- Hour × Day heatmap
+- Day-part performance
+- Weekly trends
+- Monthly CTR and conversion trends
 
+---
 
+## Key Takeaways
+This project strengthened hands-on skills in:
+- Data cleaning and preparation (Python / Pandas)
+- Dimensional modeling (Star Schema)
+- Writing optimized DAX measures
+- Designing multi-page Power BI dashboards
+- Translating marketing data into actionable business insights
 
-##### The dataset contains:
+---
 
-##### •Ads
+## Why This Project Matters
+This is a **real-world BI project**, not a toy dataset.
 
-##### •Campaigns
+It demonstrates how data analysts:
+- Evaluate advertising performance
+- Identify high-value audiences
+- Optimize marketing spend
+- Support data-driven decision-making
 
-##### •Users
+Relevant for roles such as:
+- Data Analyst
+- Business Intelligence Analyst
+- Marketing Analyst
+- BI Consultant
 
-##### •Ad events (impressions, clicks, likes, comments, shares, purchases)
 
 
 
-#### **2. Data Cleaning (Python)**
 
 
-
-##### I cleaned the data using Pandas:
-
-##### •Removed duplicates
-
-##### •Fixed inconsistent user entries
-
-##### •Split data into dim\_ad, dim\_campaign, dim\_user, and fact\_ad\_events
-
-##### •Exported cleaned tables for Power BI
-
-
-
-#### **3. Data Model (Power BI)**
-
-
-
-##### I built a star schema:
-
-##### •DimCampaign → DimAd → FactAdEvents ← DimUser
-
-##### •This helps create clear, fast, easy-to-understand visuals.
-
-
-
-#### **4. DAX Measures**
-
-
-
-##### Created key metrics such as:
-
-##### •Impressions
-
-##### •Clicks
-
-##### •CTR (Click-Through Rate)
-
-##### •Engagement Rate
-
-##### •Conversion Rate
-
-##### •CPC (Cost per Click)
-
-##### •CPA (Cost per Acquisition)
-
-##### •Ad Performance Score (custom metric)
-
-
-
-### Dashboard Pages (5 Pages)
-
-### **Page 1 — Executive Summary**
-
-
-
-##### High-level performance:
-
-##### •Impressions, clicks, engagements, purchases
-
-##### •Click-through rate, conversion rate
-
-##### •Top platforms, countries, interests
-
-##### •Monthly engagement trend
-
-
-
-### **Page 2 — Audience Insights**
-
-
-
-##### Breakdown by:
-
-##### •Age group
-
-##### •Gender
-
-##### •Country
-
-##### •Interests
-
-##### •Helps understand who is engaging with ads.
-
-
-
-### **Page 3 — Ad Performance**
-
-
-
-##### Shows which ads perform best:
-
-##### •Top \& bottom CTR ads
-
-##### •Ad type comparison
-
-##### •Facebook vs Instagram
-
-##### •Detailed table with performance score
-
-
-
-### **Page 4 — Campaign ROI**
-
-
-
-##### Budget-focused analysis:
-
-##### •CPC and CPA
-
-##### •Budget vs performance
-
-##### •Which campaigns should be scaled or paused
-
-
-
-### **Page 5 — Time Series Analysis**
-
-
-
-##### Time-based patterns:
-
-##### •Heatmap (hour × day)
-
-##### •Day-part performance
-
-##### •Weekly trends
-
-##### •Monthly CTR \& conversion trends
-
-##### •**Key Takeaways**
-
-##### •From this project, I practiced:
-
-##### •Data cleaning and prep (Python)
-
-##### •Building a proper star schema
-
-##### •Writing DAX measures
-
-##### •Designing a multi-page Power BI dashboard
-
-##### •Extracting useful business insights from marketing data.
-
-
-
-##### This is a real-world style BI project showing how ads perform, which audiences to target, and where budgets should go.
 
