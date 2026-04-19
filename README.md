@@ -91,6 +91,8 @@ High-level snapshot for stakeholders:
 - CTR and conversion rate
 - Top platforms, countries, and interests
 - Monthly engagement trend
+<img width="2328" height="1316" alt="image" src="https://github.com/user-attachments/assets/b73fadf9-ff47-4e10-8a2b-b6a30fad4edb" />
+
 
 ---
 
@@ -100,6 +102,7 @@ Understanding **who** engages with ads:
 - Gender distribution
 - Countries
 - User interests
+<img width="2324" height="1298" alt="image" src="https://github.com/user-attachments/assets/2fa041cf-2d66-4c03-8c70-b2a5fc7e83d4" />
 
 ---
 
@@ -109,6 +112,7 @@ Identifies top and bottom-performing ads:
 - Ad type comparison
 - Facebook vs Instagram performance
 - Detailed performance table with custom score
+<img width="2318" height="1319" alt="image" src="https://github.com/user-attachments/assets/7f4ac670-cb2f-4a81-854b-601d09c96285" />
 
 ---
 
@@ -117,6 +121,7 @@ Budget and efficiency analysis:
 - CPC and CPA by campaign
 - Budget vs performance
 - Clear recommendations on which campaigns to scale or pause
+<img width="2322" height="1316" alt="image" src="https://github.com/user-attachments/assets/2a377670-e1d9-4e07-b1ae-baa37cf08245" />
 
 ---
 
@@ -126,6 +131,7 @@ Time-based behavior and trends:
 - Day-part performance
 - Weekly trends
 - Monthly CTR and conversion trends
+<img width="2313" height="1303" alt="image" src="https://github.com/user-attachments/assets/2633c110-61dd-4576-a583-7a82803f0f2b" />
 
 ---
 
